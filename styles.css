@@ -20,18 +20,19 @@ body {
 } */
 
 .avatar {
-    width: 270px;
+    width: 230px;
     border: 0px transparent;
     border-radius: 15px;
+    height: 100%;
 }
 
 .card {
-    z-index: 999;
-    width: 650px;
+    width: 800px;
     margin: 0 auto;
     padding: 22px;
+    padding-top: 37px;
     display: flex;
-    justify-content: space-around;
+    justify-content:left;
     text-align: center;
     background: #F1FAEE;
     color: #191516;
@@ -49,6 +50,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content:space-evenly ;
+    text-align: left;
+    margin-left: 30px;
 }
 
 .border-blue {
