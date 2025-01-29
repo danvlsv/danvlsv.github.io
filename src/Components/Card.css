@@ -1,0 +1,38 @@
+.card {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 22px;
+    display: flex;
+    justify-content:left;
+    text-align: left;
+    /* text-align: center; */
+    background: #F1FAEE;
+    color: #191516;
+    border-radius: 15px;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  #top-card {
+    justify-content:space-between;
+    flex-direction: row;
+    align-items: center;
+    /* @media (max-width: 700px) {
+    
+        flex-direction: column-reverse;
+  
+    } */
+  }
+
+  #top-card .avatar {
+    @media (max-width: 600px) {
+        height: 200px;
+        
+    }
+  }
+
+  #top-card .card-text {
+    @media (max-width: 600px) {
+        font-size: 1.9rem;
+    }
+  }
