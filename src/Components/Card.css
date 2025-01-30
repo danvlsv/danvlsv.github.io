@@ -13,21 +13,34 @@
     margin-bottom: 20px;
   }
 
+  
+.card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content:start; 
+  text-align: left;
+
+}
+
+.avatar {
+  /* width:fit-content; */
+  border: 0px transparent;
+  border-radius: 15px;
+  height: 100%;
+  height: 300px;
+}
+
+
+
   #top-card {
     justify-content:space-between;
     flex-direction: row;
-    align-items: center;
-    /* @media (max-width: 700px) {
-    
-        flex-direction: column-reverse;
-  
-    } */
+    /* align-items: center; */
   }
 
   #top-card .avatar {
     @media (max-width: 600px) {
         height: 200px;
-        
     }
   }
 
@@ -36,3 +49,48 @@
         font-size: 1.9rem;
     }
   }
+
+.job-header{
+  width: 60%;
+}
+
+.job-header h3,p {
+    margin: 0rem 0rem;
+}
+
+.job-header h4 {
+  margin: 0rem;
+  margin-top: 2rem;
+  font-weight: normal;
+}
+
+.card-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.work-duration{
+  color:#1f3964;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right;
+
+}
+
+.work-duration h5 {
+  margin:0;
+  margin-bottom: 2rem;
+  font-size: 2.8rem;
+}
+
+
+.work-duration p{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-row ul{
+  width: 60%;
+}

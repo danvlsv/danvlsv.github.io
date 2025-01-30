@@ -8,6 +8,7 @@ function CV() {
 
   return (
     <>
+    <div className='cv'>
       <Card id="top-card">
         <div className="card-text">
           <h2>Daniil Vlasov</h2>
@@ -19,8 +20,20 @@ function CV() {
       <h1>Опыт работы</h1>
 
       <Card>
-        <h3>ООО "МУЛЬТИЛАБ" - Программист-стажер</h3>
-        <p>Ноябрь 2023 – июль2024 (9 месяцев)</p>
+
+        <div className='card-row'>
+          <div className='borderBox job-header'>
+            <h3>Программист-стажер</h3>
+            <h4>ООО "МУЛЬТИЛАБ"</h4>
+          </div>
+
+          <div className='work-duration'>
+            <h5>9 месяцев</h5>
+            <p>Ноябрь 2023 – июль 2024</p>
+          </div>
+        </div>
+        
+        <div className='card-row'>
         <ul>
           <li>Разработка 
             VR-игры на Unity (C#)</li>
@@ -34,10 +47,13 @@ function CV() {
           <li>Обеспечение сборки и тестирование игры 
             на последних
           стадиях разработки проекта</li>
-        </ul>
+        </ul> 
+        </div>
+        
+        
       </Card>
-
       
+      </div>
     </>
   )
 }

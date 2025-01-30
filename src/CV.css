@@ -1,14 +1,6 @@
-.avatar {
-  /* width:fit-content; */
-  border: 0px transparent;
-  border-radius: 15px;
-  height: 100%;
-  height: 300px;
-}
-
-
-#top-card {
-  justify-content:space-between;
+.cv {
+  align-content: center;
+  justify-content: center;
 }
 
 h1{
@@ -17,14 +9,6 @@ h1{
 }
 
 
-
-.card-text {
-  display: flex;
-  flex-direction: column;
-  justify-content:space-between ;
-  text-align: left;
-
-}
 
 .border-blue {
   border: 1px dotted blue;
